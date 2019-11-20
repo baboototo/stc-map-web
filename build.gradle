@@ -43,3 +43,13 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 배포 파일 설정
+bootJar {
+    archiveBaseName = "stc-map-web"
+    archiveFileName = "stc-map-web.jar"
+    archiveVersion = "0.0.0"
+
+}
